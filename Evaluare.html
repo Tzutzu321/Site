@@ -1,0 +1,126 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background: url(background_home.jpg);">
+    <style>
+        #ES {
+            background-color: #717371;
+            margin-right: 350px;
+            margin-left: 350px;
+            border-radius: 50px;
+        }
+
+        body {
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rating-css {
+            height: 250px;
+            width: 500px;
+            background: #757D7B;
+            border: 4px solid #2AFF00;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .rating-css {
+            color: #2AFF00;
+            font-size: 15px;
+            font-family: Limelight;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+            .rating-css input {
+                display: none;
+            }
+
+                .rating-css input + label {
+                    font-size: 40px;
+                    padding: 20px 0;
+                    cursor: pointer;
+                }
+
+                .rating-css input:checked + label ~ label {
+                    color: #838383;
+                }
+
+            .rating-css label:active {
+                transform: scale(0.8);
+                transition: 0.3s ease;
+            }
+            .textarea{
+                height:100px;
+                width:100%;
+                overflow:hidden;
+            }
+                .textarea textarea {
+                    height: 100%;
+                    width: 70%;
+                    border-radius: 10px;
+                    outline: none;
+                    color: #ffffff;
+                    border: 1px solid #585858;
+                    background: #585858;
+                    padding: 10px;
+                    font-size: 17px;
+                    resize: none;
+                }
+        ::-webkit-scrollbar {
+            width: 10px;
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            background-color: #949494;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #C8C8C8;
+            }
+        .button {
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.5s;
+        }
+        .button {
+            background-color: #585858;
+            color: white;
+            border: 2px solid #585858;
+            width: 120px;
+            border-radius: 10px;
+        }
+            .button:hover {
+                background: #D8D8D8;
+                border-color: #D8D8D8;
+                color: black;
+            }
+    </style>
+    <center>
+    <div id="ES"><h1><font face="Limelight" size="6" color="#2AFF00">Evalueaza Site-ul</font></h1></div>
+    <div class="rating-css">
+        <input type="radio" name="rating1" id="rating1">
+        <label for="rating1" class="fa fa-star"></label>
+        <input type="radio" name="rating1" id="rating2">
+        <label for="rating2" class="fa fa-star"></label>
+        <input type="radio" name="rating1" id="rating3">
+        <label for="rating3" class="fa fa-star"></label>
+        <input type="radio" name="rating1" id="rating4">
+        <label for="rating4" class="fa fa-star"></label>
+        <input type="radio" name="rating1" id="rating5">
+        <label for="rating5" class="fa fa-star"></label>
+        <div class="textarea">
+            <textarea cols="30" placeholder="Descrie-ti experienta pe site..."></textarea>
+        </div>
+        <a href="multumim.html" target="Zona 3"><button class="button button">Trimite</button></a>
+    </div>
+    </center>
+</body>
+</html>
